@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run --rm -it -e HZ_SIM_REGION="$HZ_SIM_REGION" -e HZ_SIM_TABLE="$HZ_SIM_TABLE" -v ~/.aws:/root/.aws:ro sim-viewer:latest
